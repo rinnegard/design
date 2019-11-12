@@ -12,6 +12,11 @@
  box-sizing: border-box;
 }
 
+.inner-wrap {
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -22,6 +27,9 @@
     display: none;
 }
 
+li {
+    list-style: none;
+}
 .byline {
     border: double;
     width: 300px;
