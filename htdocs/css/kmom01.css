@@ -181,3 +181,16 @@ figcaption p {
     position: absolute;
     right: 0px;
 }
+
+.breadcrumb-list li {
+    display: inline-block;
+}
+
+.breadcrumb-list li::after {
+    content: " » ";
+}
+
+.breadcrumb-list a {
+    text-decoration: none;
+    color: black;
+}
