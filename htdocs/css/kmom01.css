@@ -108,9 +108,10 @@ li {
 }
 
 .byline {
-    border: double;
-    width: 300px;
-    height: 60px;
+    display: inline-block;
+    border-left: #057fc8 4px solid;
+    border-top:  #057fc8 4px solid;
+    border-radius: 10px;
     margin: 50px;
     clear: both;
 }
@@ -121,6 +122,12 @@ li {
     width: auto;
     height: 50px;
     padding: 5px;
+}
+
+.byline p {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
 }
 
 .right {
