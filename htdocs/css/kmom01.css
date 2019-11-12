@@ -12,16 +12,27 @@
  box-sizing: border-box;
 }
 
+.wrap-all {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.outer-wrap-main {
+    display: flex;
+    flex: 1;
+}
+
 .inner-wrap {
     width: 60%;
     margin: 0 auto;
 }
 
+/* Footer */
 .outer-wrap-footer {
-    background-color: #057fc8;
+  background-color: #057fc8;
 }
 
-/* Footer */
 .footer-column-wrapper {
     display: flex;
     flex-direction: row;
