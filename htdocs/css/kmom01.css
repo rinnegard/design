@@ -16,6 +16,30 @@
     width: 60%;
     margin: 0 auto;
 }
+
+.outer-wrap-footer {
+    background-color: #057fc8;
+}
+
+/* Footer */
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 10px;
+}
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
