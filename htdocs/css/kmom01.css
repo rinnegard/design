@@ -21,3 +21,18 @@
 .rm-navbar-max {
     display: none;
 }
+
+.byline {
+    border: double;
+    width: 300px;
+    height: 60px;
+    margin: 50px;
+}
+
+.byline img {
+    display: block;
+    float: left;
+    width: auto;
+    height: 50px;
+    padding: 5px;
+}
