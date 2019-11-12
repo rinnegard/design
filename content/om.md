@@ -21,4 +21,4 @@ Om
 
 Den har webbplatsen är gjord i kursen Teknisk webbdesign och användbarhet även kallad Design på BTH.
 
-[FIGURE src=image/design.jpg?w=300 caption="En fin abstrakt som demobild."]
+[FIGURE src=image/design.jpg?w=300 caption="En fin abstrakt demobild."]
