@@ -27,6 +27,16 @@
     display: none;
 }
 
+.site-logo-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.site-logo {
+    display: none;
+}
+
 li {
     list-style: none;
 }
