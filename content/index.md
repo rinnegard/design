@@ -1,12 +1,12 @@
 ---
-title: "Min fina titel"
+title: "Min Redovisnings Sida"
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig och min hund"]
 
 Jag heter Victor och jag är 26 år gammal. Jag är undefär 177cm lång. Min favoritfärg är orange. Jag är uppvuxen i Motala. Min familj består av min mamma och pappa och lillebror och min hund. På gymnaiest gick jag naturvetenskapliga programmet på Platenskolan i Motala. Nu studerar jag webbprogrammering på distans på BTH. Jag har alltid varit intresserad av datorer och har tyckt om problemlösning från matematiken i skolan och den så programmering verkar vara en bra kombination av dom intressena.
 
