@@ -171,3 +171,13 @@ figcaption p {
 .block p{
     margin-top: 0;
 }
+
+.next-previous {
+    position: relative;
+    margin: 10px;
+}
+
+.next {
+    position: absolute;
+    right: 0px;
+}
