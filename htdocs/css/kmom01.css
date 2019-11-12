@@ -12,6 +12,11 @@
  box-sizing: border-box;
 }
 
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .wrap-all {
     display: flex;
     min-height: 100vh;
@@ -124,4 +129,14 @@ li {
 
 .left {
     float: left;
+}
+
+.figure {
+    margin: 10px;
+    display: inline-block;
+}
+
+figcaption p {
+    text-align: center;
+    margin: 0;
 }
