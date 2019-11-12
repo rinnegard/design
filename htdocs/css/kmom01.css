@@ -58,6 +58,11 @@
     display: none;
 }
 
+.region-flash img {
+    width: 100%;
+    height: 140px;
+}
+
 li {
     list-style: none;
 }
