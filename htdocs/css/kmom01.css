@@ -175,6 +175,7 @@ figcaption p {
 .next-previous {
     position: relative;
     margin: 10px;
+    min-height: 18px;
 }
 
 .next {
