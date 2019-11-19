@@ -40,6 +40,7 @@ p {
 /* Footer */
 .outer-wrap-footer {
   background-color: #057fc8;
+  color: #000;
 }
 .footer-column-wrapper {
   display: flex;
@@ -75,6 +76,7 @@ p {
   background-color: #057fc8;
   display: flex;
   justify-content: space-around;
+  height: 35px;
 }
 .my-navbar li {
   text-decoration: none;
