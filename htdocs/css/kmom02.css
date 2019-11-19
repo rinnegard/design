@@ -1,21 +1,10 @@
 /*!
- * LESS version of the stylesheet for design kmom01.
+ * Stylesheet for design kmom02.
  *
- * This stylesheet is for the design course and kmom01. Its intention is to
- * use kmom01.css and lessify the style and use this as a wrapper for the new
- * style.
+ * This stylesheet is for the design course and kmom02 where we use LESS.
  */
 /**
  * Internal self contained modules, save in directory module/.
- */
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
  */
 /**
  * Base style to affect HTML elements on a general scale.
@@ -43,11 +32,11 @@ p {
   margin-bottom: 1em;
 }
 .outer-wrap-footer {
-  background-color: #057fc8;
+  background-color: #f03dbc;
   color: #000;
 }
 .my-navbar {
-  background-color: #057fc8;
+  background-color: #f03dbc;
 }
 .my-navbar li {
   text-decoration: none;
@@ -66,8 +55,8 @@ li {
 }
 .byline {
   display: inline-block;
-  border-left: #057fc8 4px solid;
-  border-top: #057fc8 4px solid;
+  border-left: #f03dbc 4px solid;
+  border-top: #f03dbc 4px solid;
   border-radius: 10px;
   margin: 50px;
   clear: both;
@@ -92,7 +81,7 @@ figcaption p {
   padding-bottom: 5px;
 }
 .block h4 {
-  background-color: #057fc8;
+  background-color: #f03dbc;
 }
 .block p {
   margin-top: 0;

@@ -1,14 +1,13 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: #424242;
+@mainColor: #057fc8;
 @bgColorBody: #fff;
 @colorBody: #333;
 @fontFamilyBody: serif;
 
 html {
     overflow-y: scroll;
-    background-color: @bgColorHtml;
 }
 
 body {
@@ -31,12 +30,12 @@ p {
 }
 
 .outer-wrap-footer {
-  background-color: #057fc8;
+  background-color: @mainColor;
   color: #000;
 }
 
 .my-navbar {
-    background-color: #057fc8;
+    background-color: @mainColor;
 }
 
 .my-navbar li {
@@ -60,8 +59,8 @@ li {
 
 .byline {
     display: inline-block;
-    border-left: #057fc8 4px solid;
-    border-top:  #057fc8 4px solid;
+    border-left: @mainColor 4px solid;
+    border-top:  @mainColor 4px solid;
     border-radius: 10px;
     margin: 50px;
     clear: both;
@@ -91,7 +90,7 @@ figcaption p {
 }
 
 .block h4{
-    background-color: #057fc8;
+    background-color: @mainColor;
 }
 
 .block p{
