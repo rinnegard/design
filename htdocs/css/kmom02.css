@@ -4958,171 +4958,173 @@ figcaption p {
 /**
      * Outer wrapper for menu
      */
-.rm-navbar {
+.region-header-col-3 {
+  /**
+     * Avoid scrolling mobile devices
+     * OBSOLETE?
+     */
+  /**
+     * Meny layout for the small buttonized menu.
+     */
+  /**
+     * Standard meny layout, valid for any subtype.
+     */
+  /**
+     * Menu layout for the desktop variant, usually full width of browser.
+     */
+  /**
+     * Menu layout for the mobile variant, usually for mobile screens.
+     */
+  /**
+     * Menu layout for the max variant, for mobile screens and complete menues.
+     * Swipe from right by default.
+     */
+}
+.region-header-col-3 .rm-navbar {
   position: relative;
 }
-.rm-navbar ul {
+.region-header-col-3 .rm-navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/**
- * Avoid scrolling mobile devices
- * OBSOLETE?
- */
-/**
- * Meny layout for the small buttonized menu.
- */
-.rm-small {
+.region-header-col-3 .rm-small {
   display: none;
   float: right;
 }
-a.rm-button {
+.region-header-col-3 a.rm-button {
   display: inline-block;
   color: inherit;
   background-color: transparent;
   outline: none;
 }
-a.rm-button:active {
+.region-header-col-3 a.rm-button:active {
   color: inherit;
   background-color: transparent;
 }
-a.rm-button .rm-button-face-1 {
+.region-header-col-3 a.rm-button .rm-button-face-1 {
   position: absolute;
   transition: color 0.1s ease;
 }
-a.rm-button .rm-button-face-2 {
+.region-header-col-3 a.rm-button .rm-button-face-2 {
   position: relative;
   color: transparent;
   transition: color 0.1s ease;
 }
-a.rm-button.rm-clicked {
+.region-header-col-3 a.rm-button.rm-clicked {
   color: #9FB129;
   background-color: transparent;
 }
-a.rm-button.rm-clicked .rm-button-face-1 {
+.region-header-col-3 a.rm-button.rm-clicked .rm-button-face-1 {
   color: transparent;
 }
-a.rm-button.rm-clicked .rm-button-face-2 {
+.region-header-col-3 a.rm-button.rm-clicked .rm-button-face-2 {
   z-index: 2;
   color: inherit;
 }
-/**
- * Standard meny layout, valid for any subtype.
- */
-.rm-default li {
+.region-header-col-3 .rm-default li {
   display: inline-block;
 }
-.rm-default li li {
+.region-header-col-3 .rm-default li li {
   display: block;
   min-width: 10em;
 }
-.rm-default a {
+.region-header-col-3 .rm-default a {
   display: block;
   text-decoration: none;
   white-space: nowrap;
   padding: 1em;
   outline: none;
 }
-.rm-default ul {
+.region-header-col-3 .rm-default ul {
   position: absolute;
   z-index: 9999;
   left: -9999px;
 }
-.rm-default ul.rm-show-submenu {
+.region-header-col-3 .rm-default ul.rm-show-submenu {
   left: 0;
 }
-.rm-default ul li {
+.region-header-col-3 .rm-default ul li {
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
 }
-.rm-default ul ul {
+.region-header-col-3 .rm-default ul ul {
   left: -9999px;
 }
-/**
- * Menu layout for the desktop variant, usually full width of browser.
- */
-.rm-desktop ul {
+.region-header-col-3 .rm-desktop ul {
   background-color: inherit;
 }
-.rm-desktop li {
+.region-header-col-3 .rm-desktop li {
   position: relative;
 }
-.rm-desktop li a:hover,
-.rm-desktop li.current-menu-item a {
+.region-header-col-3 .rm-desktop li a:hover,
+.region-header-col-3 .rm-desktop li.current-menu-item a {
   text-decoration: underline;
 }
-.rm-desktop li a {
+.region-header-col-3 .rm-desktop li a {
   color: inherit;
   background-color: inherit;
 }
-.rm-desktop li a:hover {
+.region-header-col-3 .rm-desktop li a:hover {
   color: inherit;
   background-color: inherit;
 }
-.rm-desktop li:hover > ul {
+.region-header-col-3 .rm-desktop li:hover > ul {
   left: 0;
 }
-.rm-desktop li:hover > ul.rm-submenu-level-1 {
+.region-header-col-3 .rm-desktop li:hover > ul.rm-submenu-level-1 {
   left: auto;
   left: 30%;
 }
-.rm-desktop li .rm-submenu-button {
+.region-header-col-3 .rm-desktop li .rm-submenu-button {
   display: none;
 }
-/**
- * Menu layout for the mobile variant, usually for mobile screens.
- */
-.rm-mobile {
+.region-header-col-3 .rm-mobile {
   width: 100%;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
   background-color: #444;
   color: #fff;
 }
-.rm-mobile a {
+.region-header-col-3 .rm-mobile a {
   color: inherit;
 }
-.rm-mobile li {
+.region-header-col-3 .rm-mobile li {
   display: block;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
   /*        // Header of submenu is closed
-        //&.sub-menu, // For WordPress menu generating
-        &.rm-submenu > a:before {
-            content: "\f0d7";
-        }
+            //&.sub-menu, // For WordPress menu generating
+            &.rm-submenu > a:before {
+                content: "\f0d7";
+            }
 
-        // Header of submenu is opened
-        &.rm-submenu-open > a:before {
-            content: "\f0d8";
-        }
-*/
+            // Header of submenu is opened
+            &.rm-submenu-open > a:before {
+                content: "\f0d8";
+            }
+    */
 }
-.rm-mobile li.rm-submenu-open > ul {
+.region-header-col-3 .rm-mobile li.rm-submenu-open > ul {
   position: relative;
   left: 0;
 }
-/**
- * Menu layout for the max variant, for mobile screens and complete menues.
- * Swipe from right by default.
- */
-.rm-max.rm-navbar {
+.region-header-col-3 .rm-max.rm-navbar {
   position: absolute;
   top: 16px;
   right: 24px;
 }
-.rm-max .rm-small {
+.region-header-col-3 .rm-max .rm-small {
   display: block;
 }
-.rm-max .rm-small .rm-button {
+.region-header-col-3 .rm-max .rm-small .rm-button {
   color: inherit;
 }
-.rm-max .rm-small .rm-button.rm-clicked {
+.region-header-col-3 .rm-max .rm-small .rm-button.rm-clicked {
   color: #9FB129;
   position: fixed;
   top: 16px;
   right: 24px;
   z-index: 999;
 }
-.rm-max .rm-mobile {
+.region-header-col-3 .rm-max .rm-mobile {
   transition: all 0.15s linear;
   position: fixed;
   z-index: 998;
@@ -5138,16 +5140,16 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   /* Button for submenu */
   /* Style for submenu */
 }
-.rm-max .rm-mobile li a:active {
+.region-header-col-3 .rm-max .rm-mobile li a:active {
   background-color: transparent;
 }
-.rm-max .rm-mobile.rm-clicked {
+.region-header-col-3 .rm-max .rm-mobile.rm-clicked {
   transform: translateX(0);
 }
-.rm-max .rm-mobile a:hover {
+.region-header-col-3 .rm-max .rm-mobile a:hover {
   text-decoration: underline;
 }
-.rm-max .rm-mobile .rm-submenu-button {
+.region-header-col-3 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
   background-color: #444;
@@ -5158,29 +5160,26 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: relative;
   z-index: 1;
 }
-.rm-max .rm-mobile .rm-submenu-button:after {
+.region-header-col-3 .rm-max .rm-mobile .rm-submenu-button:after {
   content: "\25BC";
 }
-.rm-max .rm-mobile .rm-submenu-button:hover {
+.region-header-col-3 .rm-max .rm-mobile .rm-submenu-button:hover {
   text-decoration: none;
   background-color: #ccc;
 }
-.rm-max .rm-mobile li ul {
+.region-header-col-3 .rm-max .rm-mobile li ul {
   padding-left: 8px;
 }
-.rm-max .rm-mobile .rm-submenu-open > .rm-submenu-button:after {
+.region-header-col-3 .rm-max .rm-mobile .rm-submenu-open > .rm-submenu-button:after {
   content: "\25B2";
 }
-.rm-max.rm-swipe-left .rm-mobile {
+.region-header-col-3 .rm-max.rm-swipe-left .rm-mobile {
   left: 0;
 }
-.rm-max.rm-swipe-right .rm-mobile {
+.region-header-col-3 .rm-max.rm-swipe-right .rm-mobile {
   right: 0;
 }
-.region-header-col-2 a {
-  display: inline;
-}
-.rm-default ul {
+.region-header-col-2 .rm-default ul {
   display: none;
 }
 /**
