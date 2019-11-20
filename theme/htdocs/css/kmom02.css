@@ -4868,6 +4868,9 @@ figcaption p {
   top: 0;
   left: 0;
 }
+.site-logo-text img {
+  height: 25px;
+}
 /* Navbar */
 .my-navbar {
   display: flex;
@@ -5108,7 +5111,7 @@ figcaption p {
 }
 .region-header-col-3 .rm-max.rm-navbar {
   position: absolute;
-  top: 16px;
+  top: 9px;
   right: 24px;
 }
 .region-header-col-3 .rm-max .rm-small {
@@ -5120,7 +5123,7 @@ figcaption p {
 .region-header-col-3 .rm-max .rm-small .rm-button.rm-clicked {
   color: #9FB129;
   position: fixed;
-  top: 16px;
+  top: 9px;
   right: 24px;
   z-index: 999;
 }
