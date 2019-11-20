@@ -4916,8 +4916,38 @@ figcaption p {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1500px) {
-  .site-logo {
+@media screen and (max-width: 1000px) {
+  .inner-wrap-main {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .inner-wrap-header {
+    width: 100%;
+  }
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 5%;
+  }
+  .region-header-col-2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .site-logo-text {
+    display: none;
+  }
+  .inner-wrap-flash {
+    width: 100%;
+  }
+  .region-flash img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .site-logo-text {
+    display: initial;
+  }
+  .my-navbar li {
     display: none;
   }
 }
@@ -5194,9 +5224,6 @@ figcaption p {
 @media screen and (max-width: 680px) {
   .rm-small {
     display: block;
-  }
-  .rm-desktop {
-    display: none;
   }
 }
 @media screen and (min-width: 680px) {
