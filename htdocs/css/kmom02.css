@@ -4899,6 +4899,10 @@ figcaption p {
   width: 80%;
   float: left;
 }
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+  float: left;
+}
 .region-sidebar-right {
   float: right;
   width: 20%;
