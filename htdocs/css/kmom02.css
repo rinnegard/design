@@ -4905,17 +4905,18 @@ figcaption p {
 }
 .region-sidebar-right {
   float: right;
-  width: 20%;
-  margin-top: 50px;
-  padding: 5px;
 }
 .region-sidebar-left {
   float: left;
+}
+.region-sidebar-right,
+.region-sidebar-left {
   width: 20%;
   margin-top: 50px;
   padding: 5px;
+  word-wrap: break-word;
 }
-.next-previous {
+.region-sidebar-left .next-previous {
   position: relative;
   margin: 10px;
   min-height: 18px;
@@ -4961,6 +4962,16 @@ figcaption p {
   }
   .my-navbar li {
     display: none;
+  }
+  .region-sidebar-right,
+  .region-sidebar-left {
+    display: none;
+  }
+  .region-main.has-sidebar {
+    width: 100%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    width: 100%;
   }
 }
 /**
