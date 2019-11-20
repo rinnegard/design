@@ -212,6 +212,14 @@ figcaption p {
   .site-logo {
     display: none;
   }
+  /* Hide submenu, leave this to kmom02 */
+  .rm-desktop ul {
+    display: initial;
+  }
+  /* Hide responsive/mobile menu, leave this to kmom02 */
+  .rm-navbar-max {
+    display: initial;
+  }
 }
 /**
  * Show off the regions used in the website, to ease styling.
