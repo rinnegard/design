@@ -4917,7 +4917,8 @@ figcaption p {
  * Layout for responsive style through media queries.
  */
 @media screen and (max-width: 1000px) {
-  .inner-wrap-main {
+  .inner-wrap-main,
+  .inner-wrap-footer {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
