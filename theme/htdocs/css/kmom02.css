@@ -4916,7 +4916,7 @@ figcaption p {
   padding: 5px;
   word-wrap: break-word;
 }
-.region-sidebar-left .next-previous {
+.next-previous {
   position: relative;
   margin: 10px;
   min-height: 18px;
