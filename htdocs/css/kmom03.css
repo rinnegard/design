@@ -4879,6 +4879,17 @@ figcaption p {
 /**
  * General layout
  */
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60%;
+}
+.inner-wrap-header,
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
 .footer-column {
   display: inline;
   float: left;
@@ -4888,6 +4899,21 @@ figcaption p {
 }
 .site-footer {
   text-align: center;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /* Navbar */
 .my-navbar {
