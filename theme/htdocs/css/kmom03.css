@@ -5082,6 +5082,8 @@ img {
 .my-navbar li {
   text-decoration: none;
   font-size: 30px;
+  background-color: #e75f33;
+  color: #333;
 }
 .my-navbar a {
   text-decoration: none;
