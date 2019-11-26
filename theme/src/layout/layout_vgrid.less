@@ -16,6 +16,10 @@
 /**
  * General layout
  */
+html {
+    overflow-x: hidden;
+}
+
 .inner-wrap {
     #desinax-vgrid.grid(60%);
 }
@@ -71,16 +75,17 @@ article {
 }
 
 .right {
-    // float: right;
+    float: right;
 }
 
 .left {
-    // float: left;
+    float: left;
 }
 
 .figure {
-    // margin: 10px;
-    // display: inline-block;
+    max-width: 400px;
+    margin: 10px;
+    display: inline-block;
 }
 
 /*  Sidebar layout */
@@ -121,6 +126,7 @@ article {
 
 .byline {
     #desinax-vgrid.column(6);
+    #desinax-vgrid.push(@offset: 1);
 }
 
 

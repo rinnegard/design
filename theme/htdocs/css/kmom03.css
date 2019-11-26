@@ -4878,6 +4878,9 @@ figcaption p {
 /**
  * General layout
  */
+html {
+  overflow-x: hidden;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -4941,6 +4944,17 @@ article {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.figure {
+  max-width: 400px;
+  margin: 10px;
+  display: inline-block;
+}
 /*  Sidebar layout */
 .region-main.has-sidebar {
   display: inline;
@@ -4991,6 +5005,7 @@ article {
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 4.6875%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
