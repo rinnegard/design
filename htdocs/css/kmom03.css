@@ -6,6 +6,20 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v13/tDbD2oWUg0MKqScQ6A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
 /**
  * Normalize and reset the style.
  */
@@ -4775,7 +4789,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Arvo', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5060,7 +5074,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -5343,7 +5357,7 @@ article,
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
-  min-width: 275px;
+  min-width: 300px;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
