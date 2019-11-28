@@ -5400,8 +5400,12 @@ article,
 @media screen and (max-width: 1250px) {
   .inner-wrap-main,
   .inner-wrap-footer,
-  .inner-wrap-flash,
   .inner-wrap-breadcrumb {
+    margin-right: auto;
+    margin-left: auto;
+    width: 98%;
+  }
+  .inner-wrap-flash {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -5458,6 +5462,25 @@ article,
     margin-right: 0.52083333%;
   }
   .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .figure {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .footer-column {
     display: inline;
     float: left;
     width: 98.95833333%;

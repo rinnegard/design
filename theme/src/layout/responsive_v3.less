@@ -13,8 +13,10 @@
 @media screen and (max-width: 1250px) {
     .inner-wrap-main,
     .inner-wrap-footer,
-    .inner-wrap-flash,
     .inner-wrap-breadcrumb {
+        #desinax-vgrid.grid(98%);
+    }
+    .inner-wrap-flash {
         #desinax-vgrid.grid(100%);
     }
 }
@@ -56,4 +58,17 @@
     .region-main.has-sidebar {
         #desinax-vgrid.column(@columns);
     }
+}
+
+@media screen and (max-width: 550px) {
+    .figure {
+        #desinax-vgrid.column(@columns);
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
 }
