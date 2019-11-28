@@ -5292,7 +5292,6 @@ html {
 .site-footer p {
   margin-top: 24px;
 }
-article,
 .region-main {
   display: inline;
   float: left;
@@ -5310,6 +5309,9 @@ article,
   max-width: 400px;
   margin: 10px;
   display: inline-block;
+}
+code {
+  line-height: 1;
 }
 /*  Sidebar layout */
 .region-main.has-sidebar {
@@ -5361,7 +5363,7 @@ article,
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 4.6875%;
+  margin-left: 8.85416667%;
   min-width: 300px;
 }
 .vgrid .inner-wrap {
