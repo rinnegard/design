@@ -28,12 +28,6 @@ html {
     #desinax-vgrid.grid(100%);
 }
 
-
-.site-logo-text img {
-    // height: 25px;
-}
-
-
 .region-header-col-1,
 .region-header-col-3, {
     #desinax-vgrid.column(3);
@@ -41,6 +35,18 @@ html {
 
 .region-header-col-2 {
     #desinax-vgrid.column(18);
+}
+
+//Keep the footer at the bottom
+.wrap-all {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.outer-wrap-main {
+    display: flex;
+    flex: 1;
 }
 
 /* Navbar/Header */
@@ -101,6 +107,7 @@ article,
 /*  Sidebar layout */
 .region-main.has-sidebar {
     #desinax-vgrid.column(20);
+
 }
 
 .region-main.has-sidebar-left.has-sidebar-right {
