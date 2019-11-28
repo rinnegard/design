@@ -5137,6 +5137,8 @@ figcaption p {
 }
 .block h4 {
   background-color: #e75f33;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .block ul {
   padding: 0;
@@ -5337,7 +5339,7 @@ article,
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   position: relative;
-  height: 18px;
+  height: 24px;
 }
 .next {
   position: absolute;
