@@ -79,7 +79,8 @@ html {
 
 //Main
 
-article {
+article,
+.region-main {
     #desinax-vgrid.column(@columns);
 }
 
@@ -136,6 +137,7 @@ article {
 .byline {
     #desinax-vgrid.column(6);
     #desinax-vgrid.push(@offset: 1);
+    min-width: 275px;
 }
 
 

@@ -5076,7 +5076,8 @@ img {
   background-color: #e75f33;
   color: #000;
 }
-.inner-wrap-header {
+.inner-wrap-header,
+.outer-wrap-header {
   background-color: #e75f33;
 }
 .my-navbar li {
@@ -5260,7 +5261,8 @@ html {
   margin-right: 0.52083333%;
   text-align: center;
 }
-article {
+article,
+.region-main {
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5329,6 +5331,7 @@ article {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
+  min-width: 275px;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5353,7 +5356,15 @@ article {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1650px) {
+  .inner-wrap-main,
+  .inner-wrap-footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 1250px) {
   .inner-wrap-main,
   .inner-wrap-footer,
   .inner-wrap-flash {
@@ -5361,6 +5372,8 @@ article {
     margin-left: auto;
     max-width: 100%;
   }
+}
+@media screen and (max-width: 1000px) {
   .region-header-col-1,
   .region-header-col-3 {
     display: inline;
@@ -5399,6 +5412,21 @@ article {
     display: inline;
     float: left;
     width: -1.04166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-right,
+  .region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
