@@ -5366,6 +5366,9 @@ code {
   margin-left: 8.85416667%;
   min-width: 300px;
 }
+.region-breadcrumb {
+  margin-top: 8px;
+}
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
   background-size: 100% auto;
