@@ -5289,6 +5289,9 @@ html {
   margin-right: 0.52083333%;
   text-align: center;
 }
+.site-footer p {
+  margin-top: 24px;
+}
 article,
 .region-main {
   display: inline;
