@@ -5369,6 +5369,13 @@ code {
 .region-breadcrumb {
   margin-top: 8px;
 }
+legend {
+  margin-bottom: 8px;
+}
+fieldset {
+  padding: 0;
+  padding-left: 5px;
+}
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
   background-size: 100% auto;
