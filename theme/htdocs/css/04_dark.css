@@ -5156,6 +5156,9 @@ figcaption p {
   text-decoration: none;
   color: #FFF;
 }
+.inner-wrap-flash-message {
+  background-color: #53538C;
+}
 /**
  * Import the vertical grid.
  */
@@ -5368,6 +5371,18 @@ code {
 }
 .region-breadcrumb {
   margin-top: 8px;
+}
+.inner-wrap-flash-message {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+.region-flash-message {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 legend {
   margin-bottom: 8px;
