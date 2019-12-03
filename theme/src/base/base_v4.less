@@ -1,0 +1,127 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@mainColor: #057fc8;
+@bgColorBody: #fff;
+@colorBody: #333;
+// Vgrid activation
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    // Activate the grid base font
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+
+}
+
+* {
+ box-sizing: border-box;
+}
+
+p {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.outer-wrap-footer {
+  background-color: @mainColor;
+  color: #000;
+}
+
+.inner-wrap-header,
+.outer-wrap-header {
+    background-color: @mainColor;
+}
+
+.my-navbar li {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: @mainColor;
+    color: @colorBody;
+}
+
+.my-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.my-navbar a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 10px black;
+}
+
+li {
+    list-style: none;
+}
+
+.byline {
+    display: inline-block;
+    border-left: @mainColor 4px solid;
+    border-top:  @mainColor 4px solid;
+    border-radius: 10px;
+    clear: both;
+}
+
+.byline img {
+    display: block;
+    float: left;
+    width: auto;
+    height: 50px;
+    padding: 5px;
+}
+
+.byline p {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+figcaption p {
+    text-align: center;
+    margin: 0;
+}
+
+.block h4{
+    background-color: @mainColor;
+    padding-top: @magicNumber / 2;
+    padding-bottom: @magicNumber / 2;
+}
+
+.block ul {
+    padding: 0;
+}
+
+.breadcrumb-list li {
+
+    display: inline-block;
+}
+
+.breadcrumb-list ul {
+    padding: 0;
+}
+
+.breadcrumb-list li::after {
+    content: " » ";
+}
+
+.breadcrumb-list a {
+    text-decoration: none;
+    color: black;
+}
