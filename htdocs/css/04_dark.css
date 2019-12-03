@@ -4917,12 +4917,12 @@ samp,
 }
 code,
 samp {
-  border: 1px solid #ccc;
+  border: 1px solid #3B3B42;
   padding-left: 1px;
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #3B3B42;
 }
 pre,
 div.code,
@@ -4946,7 +4946,7 @@ pre code {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 0.5em;
-  background-color: #eee;
+  background-color: #3B3B42;
 }
 ul,
 ol {
@@ -5077,8 +5077,8 @@ body {
   font: 16px/1.5 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #fff;
+  color: #FFF;
+  background-color: #18181b;
 }
 * {
   box-sizing: border-box;
@@ -5087,34 +5087,34 @@ img {
   max-width: 100%;
 }
 .outer-wrap-footer {
-  background-color: #e75f33;
-  color: #111;
+  background-color: #3B3B42;
+  color: #FFF;
 }
 .inner-wrap-header,
 .outer-wrap-header {
-  background-color: #e75f33;
+  background-color: #3B3B42;
 }
 .my-navbar li {
   text-decoration: none;
   font-size: 30px;
-  background-color: #e75f33;
-  color: #111;
+  background-color: #3B3B42;
+  color: #FFF;
 }
 .my-navbar a {
   text-decoration: none;
-  color: #111;
+  color: #FFF;
 }
 .my-navbar a:hover {
   text-decoration: underline;
-  text-shadow: 2px 2px 10px #111;
+  text-shadow: 2px 2px 10px #FFF;
 }
 li {
   list-style: none;
 }
 .byline {
   display: inline-block;
-  border-left: #057fc8 4px solid;
-  border-top: #057fc8 4px solid;
+  border-left: #53538C 4px solid;
+  border-top: #53538C 4px solid;
   border-radius: 10px;
   clear: both;
 }
@@ -5136,7 +5136,7 @@ figcaption p {
   margin: 0;
 }
 .wrap-sidebar .block h4 {
-  background-color: #f03dbc;
+  background-color: #686875;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -5154,7 +5154,7 @@ figcaption p {
 }
 .breadcrumb-list a {
   text-decoration: none;
-  color: #333;
+  color: #FFF;
 }
 /**
  * Import the vertical grid.

@@ -5154,7 +5154,7 @@ figcaption p {
 }
 .breadcrumb-list a {
   text-decoration: none;
-  color: black;
+  color: #333;
 }
 /**
  * Import the vertical grid.

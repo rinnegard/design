@@ -5087,17 +5087,17 @@ img {
   max-width: 100%;
 }
 .outer-wrap-footer {
-  background-color: #e75f33;
+  background-color: #375380;
   color: #111;
 }
 .inner-wrap-header,
 .outer-wrap-header {
-  background-color: #e75f33;
+  background-color: #375380;
 }
 .my-navbar li {
   text-decoration: none;
   font-size: 30px;
-  background-color: #e75f33;
+  background-color: #375380;
   color: #111;
 }
 .my-navbar a {
@@ -5113,8 +5113,8 @@ li {
 }
 .byline {
   display: inline-block;
-  border-left: #057fc8 4px solid;
-  border-top: #057fc8 4px solid;
+  border-left: #6EA5FF 4px solid;
+  border-top: #6EA5FF 4px solid;
   border-radius: 10px;
   clear: both;
 }
@@ -5136,7 +5136,7 @@ figcaption p {
   margin: 0;
 }
 .wrap-sidebar .block h4 {
-  background-color: #f03dbc;
+  background-color: #BAD5FF;
   padding-top: 12px;
   padding-bottom: 12px;
 }
