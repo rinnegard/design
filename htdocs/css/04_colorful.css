@@ -7,18 +7,18 @@
  * Internal self contained modules, save in directory module/.
  */
 @font-face {
-  font-family: 'Arvo';
+  font-family: 'Philosopher';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v13/tDbD2oWUg0MKqScQ6A.ttf) format('truetype');
+  src: local('Philosopher Regular'), local('Philosopher-Regular'), url(https://fonts.gstatic.com/s/philosopher/v11/vEFV2_5QCwIS4_Dhez5jcWBuT0g.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Ultra';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+  src: local('Ultra Regular'), local('Ultra-Regular'), url(https://fonts.gstatic.com/s/ultra/v12/zOLy4prXmrtY-uT9wrc.ttf) format('truetype');
 }
 /**
  * Normalize and reset the style.
@@ -4789,7 +4789,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Arvo', serif;
+  font-family: 'Ultra', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5074,7 +5074,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  font: 16px/1.5 'Montserrat', sans-serif;
+  font: 16px/1.5 'Philosopher', sans-serif;
   margin: 0;
   padding: 0;
   color: #333;

@@ -7,18 +7,11 @@
  * Internal self contained modules, save in directory module/.
  */
 @font-face {
-  font-family: 'Arvo';
+  font-family: 'Gabriela';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v13/tDbD2oWUg0MKqScQ6A.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+  src: local('Gabriela Regular'), local('Gabriela-Regular'), url(https://fonts.gstatic.com/s/gabriela/v8/qkBWXvsO6sreR8E-b8m5xL4.ttf) format('truetype');
 }
 /**
  * Normalize and reset the style.
@@ -4789,7 +4782,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Arvo', serif;
+  font-family: 'Gabriela', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5074,7 +5067,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  font: 16px/1.5 'Montserrat', sans-serif;
+  font: 16px/1.5 'Gabriela', serif;
   margin: 0;
   padding: 0;
   color: #FFF;
