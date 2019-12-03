@@ -2,8 +2,11 @@
  * Base style to affect HTML elements on a general scale.
  */
 @mainColor: #057fc8;
+@secondaryColor: #f03dbc;
+@tertiaryColor: #057fc8;
 @bgColorBody: #fff;
 @colorBody: #333;
+@colorHeaderFooter: #111;
 // Vgrid activation
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
@@ -41,7 +44,7 @@ img {
 
 .outer-wrap-footer {
   background-color: @mainColor;
-  color: #000;
+  color: @colorHeaderFooter;
 }
 
 .inner-wrap-header,
@@ -53,17 +56,17 @@ img {
     text-decoration: none;
     font-size: 30px;
     background-color: @mainColor;
-    color: @colorBody;
+    color: @colorHeaderFooter;
 }
 
 .my-navbar a {
     text-decoration: none;
-    color: black;
+    color: @colorHeaderFooter;
 }
 
 .my-navbar a:hover {
     text-decoration: underline;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px 10px @colorHeaderFooter;
 }
 
 li {
@@ -72,8 +75,8 @@ li {
 
 .byline {
     display: inline-block;
-    border-left: @mainColor 4px solid;
-    border-top:  @mainColor 4px solid;
+    border-left: @tertiaryColor 4px solid;
+    border-top:  @tertiaryColor 4px solid;
     border-radius: 10px;
     clear: both;
 }
@@ -99,7 +102,7 @@ figcaption p {
 }
 
 .block h4{
-    background-color: @mainColor;
+    background-color: @secondaryColor;
     padding-top: @magicNumber / 2;
     padding-bottom: @magicNumber / 2;
 }
