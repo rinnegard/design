@@ -16,6 +16,22 @@
     #desinax-hgrid.showGrid(@gridImage);
 }
 
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
 html {
     overflow-y: scroll;
 }
@@ -96,10 +112,10 @@ li {
     font-size: 14px;
 }
 
-figcaption p {
-    text-align: center;
-    margin: 0;
-}
+// figcaption p {
+//     text-align: center;
+//     margin: 0;
+// }
 
 .wrap-sidebar .block h4{
     background-color: @secondaryColor;

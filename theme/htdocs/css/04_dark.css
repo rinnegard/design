@@ -5216,12 +5216,12 @@ html {
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
-  width: 60%;
+  max-width: 60%;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 100%;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5368,7 +5368,7 @@ code {
 .inner-wrap-flash-message {
   margin-right: auto;
   margin-left: auto;
-  width: 60%;
+  max-width: 60%;
 }
 .region-flash-message {
   display: inline;
@@ -5414,7 +5414,7 @@ fieldset {
   .inner-wrap-breadcrumb {
     margin-right: auto;
     margin-left: auto;
-    width: 80%;
+    max-width: 80%;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -5423,12 +5423,12 @@ fieldset {
   .inner-wrap-breadcrumb {
     margin-right: auto;
     margin-left: auto;
-    width: 98%;
+    max-width: 98%;
   }
   .inner-wrap-flash {
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 1000px) {

@@ -54,9 +54,9 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Testa olika konstruktioner",
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg om bilder med mera",
         ],
     ],
 ];

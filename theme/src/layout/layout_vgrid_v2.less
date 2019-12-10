@@ -1,0 +1,189 @@
+.row {
+    #desinax-vgrid.row();
+    //background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+/**
+ * General layout
+ */
+html {
+    overflow-x: hidden;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(60%);
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.region-header-col-1,
+.region-header-col-3, {
+    #desinax-vgrid.column(3);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(18);
+}
+
+//Keep the footer at the bottom
+.wrap-all {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.outer-wrap-main {
+    display: flex;
+    flex: 1;
+}
+
+/* Navbar/Header */
+.outer-wrap-header {
+    height: 46.5px;
+}
+
+.my-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-navbar li a {
+    display: inline;
+    padding: 0;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-flash img {
+    #desinax-vgrid.column(@columns);
+    height: 140px;
+}
+
+//Footer
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+}
+
+.site-footer {
+    #desinax-vgrid.column(@columns);
+    text-align: center;
+}
+
+.site-footer p {
+    margin-top: @magicNumber;
+}
+
+//Main
+
+
+.region-main {
+    #desinax-vgrid.column(@columns);
+}
+
+// .right {
+//     float: right;
+// }
+// 
+// .left {
+//     float: left;
+// }
+//
+// .figure {
+//     max-width: 400px;
+//     margin: 10px;
+//     display: inline-block;
+// }
+
+code {
+    line-height: 1;
+}
+
+/*  Sidebar layout */
+.region-main.has-sidebar {
+    #desinax-vgrid.column(19);
+
+}
+
+.region-main.has-sidebar-left.has-sidebar-right {
+    #desinax-vgrid.column(14);
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    #desinax-vgrid.column(5);
+    // width: 20%;
+    // margin-top: 50px;
+    // padding: 5px;
+    word-wrap: break-word;
+}
+
+// Multipage next buttons
+.next-previous {
+    #desinax-vgrid.column(@columns);
+    position: relative;
+    height: @magicNumber;
+}
+
+.next {
+    position: absolute;
+    right: 0px;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+//other
+
+.byline {
+    #desinax-vgrid.column(6);
+    #desinax-vgrid.push(@offset: 2);
+    min-width: 300px;
+}
+
+.region-breadcrumb {
+    margin-top: 8px;
+}
+
+.inner-wrap-flash-message {
+    #desinax-vgrid.grid(60%);
+}
+
+.region-flash-message {
+    #desinax-vgrid.column(@columns);
+}
+
+//Table
+legend {
+    margin-bottom: 8px;
+}
+fieldset {
+    padding: 0;
+    padding-left: 5px;
+}
+
+// Show the grid
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 60%);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
