@@ -5199,6 +5199,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.header-anchor {
+  display: none;
+}
 img {
   max-width: 100%;
 }
