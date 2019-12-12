@@ -21,28 +21,34 @@ Resultat
 
 ####  Bokus
 
-Bokus fick väldigt bra betyg för desktop men för mobil skulle dom kunna förbättra sig genom att använda lazy loading och använda nyare bildformat.
+För mobil fick dom 68/100 poäng från google pagespeed. Dom skulle kunna förbättra genom att vänta med att ladda in saker som inte används förrän allt nödvändigt har laddats in, så kallad lazy loading. Att använda nyare bildformat skulle också ge tydlig förbättring.
+
+För desktop fick dom 100/100 poäng från google pagespeed. Men om dom skulle vilja förbättra sig även här skulle nyare format hjälpa här också.
 
 [FIGURE src=image/bokus.png?w=300 class="center"]
 
 
-#### Akademibokhandeln
-
-Akademibokhandeln fick dåligt betyg på mobil och bra betyg på desktop. På båda skulle dom kunna förbättra med lazy loading, nyare bildformat och komprimera text filer.
-[FIGURE src=image/akademibokhandeln.png?w=300 class="center"]
-
-
 #### Adlibris
 
-Adlibris fick bra betyg för desktop men lite sämre för mobil som dom skulle kunna förbättra genom att ta bort oanvänd css och använda lazy loading och nyare bildformat samt använda sig av preload.
+För mobil fick dom 65/100 poäng från google pagespeed. Dom skulle kunna förbättra sig genom att ta bort oanvänd css samt genom att använda lazy loading och nyare bildformat.
+
+För desktop fick dom 93/100 poäng från google pagespeed. Här skulle dom också kunna förbättra sig med att ta bort oanvänd css och genom att använda lazy loading och nyare bildformat.
 
 [FIGURE src=image/adlibris.png?w=300 class="center"]
+
+#### Akademibokhandeln
+
+För mobil fick dom 37/100 poäng från google pagespeed. För att förbättra skulle dom kunna använda lazy loading, nyare bildformat och även komprimera sina text filer.
+
+För desktop fick dom 89/100 poäng från google pagespeed. Här skulle dom också kunna förbättra sig med nyare bildformat och mer komprimering.
+
+[FIGURE src=image/akademibokhandeln.png?w=300 class="center"]
 
 
 Analys
 -----------------------
 
-Alla hade ungefär samma förbättrings åtgärder, det skilde sig lite men för alla var lazy loading och nyare bildformat en stor del.
+Alla hade ungefär samma förbättrings åtgärder, det skilde sig lite men för alla var lazy loading och nyare bildformat en stor del av det dom kunde göra för att förbättra sin laddningstid.
 
 Den som presterade bäst i testerna var Bokus följt av Adlibris och sist kom Akademibokhandeln.
 
