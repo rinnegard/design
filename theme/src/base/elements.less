@@ -1,0 +1,49 @@
+@mainColor: #5D39B3;
+@secondaryColor: #FF9B37;
+@tertiaryColor: #41CC52;
+@bgColorBody: #fff;
+@colorBody: #333;
+@colorHeaderFooter: #111;
+
+.outer-wrap-footer {
+    background: @secondaryColor;
+    background: linear-gradient(262deg, @secondaryColor 0%, @mainColor 100%);
+}
+
+.next,
+.previous {
+    border-radius: 50%;
+    background-color: @tertiaryColor;
+    display: inline-block;
+    transition: background-color 2s;
+}
+
+.wrap-sidebar .block h4 {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.next:hover,
+.previous:hover {
+    background-color: @secondaryColor;
+}
+
+h1,
+h2 {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+h1 {
+    animation: colorChange 2s linear 2s infinite
+}
+
+@keyframes colorChange {
+    from {border-color: @mainColor;}
+    to {border-color: @secondaryColor;}
+}
+
+.byline {
+    background-image: url("../img/jul.png");
+    background-size: contain;
+    border: none;
+}
