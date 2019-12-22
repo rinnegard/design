@@ -5,14 +5,16 @@
 @colorBody: #333;
 @colorHeaderFooter: #111;
 
-body {
-    background: rgb(118,143,140);
-    background: linear-gradient(0deg, rgba(118,143,140,1) 0%, rgba(179,178,57,1) 80%);
+//Harmony/balance in the headers
+h1 {
+    background: @mainColor;
+    background: linear-gradient(90deg,@mainColor 0%, @secondaryColor 100%);
 }
 
-.outer-wrap-header,
-.inner-wrap-header,
-.outer-wrap-footer,
-.my-navbar li {
-    background-color: inherit;
+.region-sidebar-left .block h4 {
+    background-color: @mainColor;
+}
+
+.region-sidebar-right .block h4 {
+    background-color: @secondaryColor;
 }
