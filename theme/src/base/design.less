@@ -5,7 +5,6 @@
 @colorBody: #333;
 @colorHeaderFooter: #111;
 
-//Harmony/balance in the headers
 h1 {
     background: @mainColor;
     background: linear-gradient(90deg,@mainColor 0%, @secondaryColor 100%);
@@ -17,4 +16,68 @@ h1 {
 
 .region-sidebar-right .block h4 {
     background-color: @secondaryColor;
+}
+
+.next,
+.previous {
+
+    display: inline-block;
+    transition: background-color 2s;
+}
+
+.next-previous {
+    margin: 0;
+    width: 100%;
+}
+
+.next {
+    border-right: 2px solid @tertiaryColor;
+}
+
+.previous {
+    border-left: 2px solid @tertiaryColor;
+}
+
+.next:hover,
+.previous:hover {
+    background-color: @tertiaryColor;
+}
+
+.toc li a{
+    color: @colorBody;
+    text-decoration: none;
+}
+
+.toc li:nth-child(even) {
+    background-color: @mainColor;
+}
+
+.toc li:nth-child(odd) {
+    background-color: @secondaryColor;
+}
+
+.toc li.selected  {
+        background-color: @tertiaryColor;
+}
+
+.toc li:hover {
+    text-align: center;
+}
+
+.byline {
+    animation: move linear 8s infinite;
+}
+
+@keyframes move {
+    0% {transform: translate3d(0, 0, 0);}
+    50% {transform: translate3d(36px, 0, 0);}
+    100% {transform: translate3d(0, 0, 0);}
+}
+
+.breadcrumb-list ul li:first-child {
+    font-size: 1.2em;
+}
+
+.breadcrumb-list ul li  {
+    background-color: @tertiaryColor
 }

@@ -5922,6 +5922,61 @@ h1 {
 .region-sidebar-right .block h4 {
   background-color: #CCA914;
 }
+.next,
+.previous {
+  display: inline-block;
+  transition: background-color 2s;
+}
+.next-previous {
+  margin: 0;
+  width: 100%;
+}
+.next {
+  border-right: 2px solid #FF19E4;
+}
+.previous {
+  border-left: 2px solid #FF19E4;
+}
+.next:hover,
+.previous:hover {
+  background-color: #FF19E4;
+}
+.toc li a {
+  color: #333;
+  text-decoration: none;
+}
+.toc li:nth-child(even) {
+  background-color: #00FFEB;
+}
+.toc li:nth-child(odd) {
+  background-color: #CCA914;
+}
+.toc li.selected {
+  background-color: #FF19E4;
+}
+.toc li:hover {
+  text-align: center;
+}
+.byline {
+  animation: move linear 8s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(36px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.breadcrumb-list ul li:first-child {
+  font-size: 1.2em;
+}
+.breadcrumb-list ul li {
+  background-color: #FF19E4;
+}
 /**
  * My own settings, not currently in their own module.
  */
